@@ -72,78 +72,7 @@ export function LeaveHistory() {
     });
   }, [])
 
-  // const leaveRecords: LeaveRecord[] = [
-  //   {
-  //     id: "LV001",
-  //     type: "Annual Leave",
-  //     startDate: "2024-01-15",
-  //     endDate: "2024-01-19",
-  //     days: 5,
-  //     status: "approved",
-  //     reason: "Family vacation to Goa",
-  //     appliedDate: "2024-01-01",
-  //     approvedBy: "Sarah Johnson",
-  //     approvedDate: "2024-01-02",
-  //     attachment: "flight-tickets.pdf",
-  //   },
-  //   {
-  //     id: "LV002",
-  //     type: "Sick Leave",
-  //     startDate: "2024-02-10",
-  //     endDate: "2024-02-12",
-  //     days: 3,
-  //     status: "approved",
-  //     reason: "Fever and flu symptoms",
-  //     appliedDate: "2024-02-09",
-  //     approvedBy: "Sarah Johnson",
-  //     approvedDate: "2024-02-09",
-  //     attachment: "medical-certificate.pdf",
-  //   },
-  //   {
-  //     id: "LV003",
-  //     type: "Personal Leave",
-  //     startDate: "2024-03-05",
-  //     endDate: "2024-03-05",
-  //     days: 1,
-  //     status: "pending",
-  //     reason: "Personal work - bank visit",
-  //     appliedDate: "2024-03-01",
-  //   },
-  //   {
-  //     id: "LV004",
-  //     type: "Emergency Leave",
-  //     startDate: "2024-02-20",
-  //     endDate: "2024-02-21",
-  //     days: 2,
-  //     status: "rejected",
-  //     reason: "Family emergency",
-  //     appliedDate: "2024-02-19",
-  //     rejectionReason: "Insufficient documentation provided",
-  //   },
-  //   {
-  //     id: "LV005",
-  //     type: "Annual Leave",
-  //     startDate: "2024-04-15",
-  //     endDate: "2024-04-22",
-  //     days: 8,
-  //     status: "cancelled",
-  //     reason: "Wedding ceremony",
-  //     appliedDate: "2024-03-15",
-  //   },
-  //   {
-  //     id: "LV006",
-  //     type: "Maternity Leave",
-  //     startDate: "2024-05-01",
-  //     endDate: "2024-08-01",
-  //     days: 90,
-  //     status: "approved",
-  //     reason: "Maternity leave",
-  //     appliedDate: "2024-03-01",
-  //     approvedBy: "HR Department",
-  //     approvedDate: "2024-03-05",
-  //     attachment: "medical-certificate.pdf",
-  //   },
-  // ]
+
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -228,10 +157,10 @@ export function LeaveHistory() {
           <h1 className="text-2xl font-bold text-gray-900">Leave History</h1>
           <p className="text-sm text-gray-600 mt-1">Track and manage your leave applications</p>
         </div>
-        <Button className="mt-4 sm:mt-0">
+        {/* <Button className="mt-4 sm:mt-0">
           <Download className="h-4 w-4 mr-2" />
           Export Report
-        </Button>
+        </Button> */}
       </div>
 
       {/* Summary Cards */}
