@@ -27,7 +27,7 @@ export function Sidebar({ currentView, onViewChange }: SidebarProps) {
     { id: "dashboard", label: "Dashboard", icon: Home },
     { id: "apply-leave", label: "Apply Leave", icon: Calendar },
     { id: "regularize", label: "Regularize Attendance", icon: Clock },
-    { id: "leave-history", label: "Leave History", icon: FileText },
+    // { id: "leave-history", label: "Leave History", icon: FileText },
     { id: "settings", label: "Settings", icon: Settings },
     { id: "register-face-modal", label: "Register Face", icon: Camera },
   ]
